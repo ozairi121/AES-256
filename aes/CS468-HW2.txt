@@ -1,0 +1,13 @@
+This homework is due on 3/13/2018. This is an individual homework assignment to be done by each student individually. 
+The submission of your homework is your acknowledgement of the honor code statement
+
+I have not copied any solution from anyone and not provided any solution to anyone on this assignment.  The solution 
+has been entirely worked out by me and represents my individual effort.
+
+Please
+•    Use a word processor (MS-Word, LaTex, Framemaker, …) for your solutions. No hand writing submission will be accepted.
+•    Include your name and G-number at the beginning of your homework submission.
+•    Pack all your files with zip or tar and gzip and name your packed file as CS468_HW2_<your last name>_<your G#>.zip (or tar.gz)
+•    Submit your packed solution to the blackboard
+
+This homework requires accessing, using and programming at zeus.vse.gmu.edu. Please create a directory named “CS468_HW2_<your last name>_<your G#> and do everything of this HW there.
