@@ -1,4 +1,4 @@
-ll:AES256_CBC_Enc AES256_CBC_Dec
+all: enc-aes256 dec-aes256
 
 AES256_CBC_Enc: AES256_CBC_Enc.c
 	gcc -o AES256_CBC_Enc AES256_CBC_Enc.c -lssl -lcrypto -w

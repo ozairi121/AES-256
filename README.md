@@ -1,4 +1,4 @@
-AES256-CBC and DES-ECB Encrytion/Decryption
+AES256-CBC Encrytion/Decryption
 -------------------------------------------
 
 AES encryption is located in the aes directory under the root directory.
@@ -9,8 +9,8 @@ Each folder has a makefile. To compile the code, simply run the make command.
 To delete output files and compiled files, run make clean.
 
 To encrypt a file using AES:
- > ./AES256_CBC_Enc -k aes256key.txt -v aesIV.txt -i CS468-HW2.txt -o CS468-HW2.myaes256
+ > ./enc-aes256 -k key.txt -v iv.txt -i test.txt -o enc-output.txt
 
 To decrypt a file using AES:
- > ./AES256_CBC_Dec -k aes256key.txt -v aesIV.txt -i CS468-HW2.myaes256 -o CS468-HW2-myaes256.txt
+ > ./dec-aes256 -k key.txt -v iv.txt -i enc-output.txt -o dec-output.txt
 
