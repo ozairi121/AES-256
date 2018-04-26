@@ -1,10 +1,9 @@
-all: enc-aes256 dec-aes256
+all: dec-aes256 dec-aes256
+enc-aes256: encrypt-aes256.c
+	gcc -o enc-aes256 encrypt-aes256.c -lssl -lcrypto -w
 
-AES256_CBC_Enc: AES256_CBC_Enc.c
-	gcc -o AES256_CBC_Enc AES256_CBC_Enc.c -lssl -lcrypto -w
-
-AES256_CBC_Dec: AES256_CBC_Dec.c
-	gcc -o AES256_CBC_Dec AES256_CBC_Dec.c -lssl -lcrypto -w
+AES256_CBC_Dec: decrypt-aes256.c
+	gcc -o dec-aes256 decrypt-aes256.c -lssl -lcrypto -w
 
 clean:
-	rm -f AES256_CBC_Enc AES256_CBC_Dec CS468-HW2.myaes256 CS468-HW2-myaes256.txt ciphersize.txt
+	rm -f dec-aes256 dec-aes256 enc-output.txt dec-output.txt ciphersize.txt
