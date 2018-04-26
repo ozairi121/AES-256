@@ -9,6 +9,7 @@ Each folder has a makefile. To compile the code, simply run the make command.
 To delete output files and compiled files, run make clean.
 
 Arguments:
+<br>
 -i input file
 -o output file
 -k secret key
