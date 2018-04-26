@@ -8,6 +8,15 @@ The ouput from my commands using AES is in the aes/output directory.
 Each folder has a makefile. To compile the code, simply run the make command.
 To delete output files and compiled files, run make clean.
 
+Arguments:
+-i input file
+-o output file
+-k secret key
+-i IV key
+
+To compile:
+> make
+
 To encrypt a file using AES:
  > ./enc-aes256 -k key.txt -v iv.txt -i test.txt -o enc-output.txt
 
