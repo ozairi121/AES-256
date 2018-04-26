@@ -11,8 +11,11 @@ To delete output files and compiled files, run make clean.
 Arguments:
 <br>
 -i input file
+<br>
 -o output file
+<br>
 -k secret key
+<br>
 -i IV key
 
 To compile:
