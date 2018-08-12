@@ -2,8 +2,6 @@
  *  AES_256_CBC Decryption
  *	
  *	Author : Omar Zairi
- *
- *	GMU CS-468
  * 
  *	Gets command line arguments
  *	 -k Key File
